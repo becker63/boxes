@@ -1,0 +1,5 @@
+private static $dbUsername = 'manager';
+private static $dbUserPassword = 'l3tm3!n';
+
+
+hector: l33th4x0rhector
